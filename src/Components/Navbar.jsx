@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 import blackbullLogo from "../Assets/blackbullLogo.jpg"
 
+
 const  Navbar = () => {
     const [nav, setNav] = useState(false);
 
@@ -10,8 +11,8 @@ const  Navbar = () => {
         setNav(!nav)
     }
     return ( 
-        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white font-mono">
-            <img className="w-20" src={blackbullLogo} size={20} alt="/" />
+        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
+            <img className="w-40" src={blackbullLogo} size={20} alt="/" />
             <ul className="hidden md:flex text-[#10b981] mx-auto font-bold ">
                 <li className="p-4 hover:underline">Home</li>
                 <li className="p-4">About</li>
