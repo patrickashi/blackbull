@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/blackbull/static/css/main.b063b825.css",
+    "main.js": "/blackbull/static/js/main.361a9f86.js",
+    "static/media/ads1.png": "/blackbull/static/media/ads1.f72887ff811630fa7270.png",
+    "static/media/hero.png": "/blackbull/static/media/hero.e35b957fd8dde1e4a8b0.png",
+    "static/media/stockimg1.jpg": "/blackbull/static/media/stockimg1.bfb6a5a2d821c5e57877.jpg",
+    "static/media/blackbullLogo.jpg": "/blackbull/static/media/blackbullLogo.c2df44146015925c6a01.jpg",
+    "static/media/Logoblack.png": "/blackbull/static/media/Logoblack.1751751c9b2fde833985.png",
+    "index.html": "/blackbull/index.html",
+    "main.b063b825.css.map": "/blackbull/static/css/main.b063b825.css.map",
+    "main.361a9f86.js.map": "/blackbull/static/js/main.361a9f86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b063b825.css",
+    "static/js/main.361a9f86.js"
+  ]
+}
