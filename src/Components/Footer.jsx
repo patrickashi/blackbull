@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="mx-auto">
-                        <ul className="flex justify-center gap-8 py-4 text-[#d1fae5]">
+                        <ul className="flex justify-center gap-2 py-4 text-[#d1fae5]">
                                 <li>Home</li>
                                 <li>About</li>
                                 <li>Trade</li>
@@ -22,11 +22,11 @@ const Footer = () => {
                         </ul>
                 </div>
                 <div className=" mx-auto">
-                    <ul className="flex mx-auto justify-center gap-8 text-white">
-                        <li> <FaInstagram className="" size={30}/> </li>
-                        <li> <FaFacebook className="" size={30}/> </li>
-                        <li> <FaLinkedin className="" size={30}/> </li>
-                        <li> <FaTwitter className="" size={30}/> </li>
+                    <ul className="flex mx-auto justify-center gap-4 text-white">
+                        <li> <FaInstagram className="" size={20}/> </li>
+                        <li> <FaFacebook className="" size={20}/> </li>
+                        <li> <FaLinkedin className="" size={20}/> </li>
+                        <li> <FaTwitter className="" size={20}/> </li>
                        
                     </ul>
                    
