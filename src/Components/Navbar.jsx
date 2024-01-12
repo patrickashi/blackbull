@@ -21,7 +21,7 @@ const  Navbar = () => {
                 <li className="p-4">Help</li>
             </ul>
 
-            <div className="text-white ">
+            <div className="text-white mobile:hidden ">
                 <button className="border right-0  py-3 font-bold  rounded-md px-11 bg-gradient-to-b from-[#047857] to bg-[#2dd4bf] text-white">Login</button>
             </div>
 
@@ -31,13 +31,18 @@ const  Navbar = () => {
 
             {/* toggle menu */}
             <div className={nav ? "fixed left-0 top-0 h-full w-[90%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
-                <ul className="uppercase p-4 my-12">
-                    <li className="p-4 border-b border-gray-600">Home</li>
-                    <li className="p-4 border-b border-gray-600">Company</li>
-                    <li className="p-4 border-b border-gray-600">Resources</li>
-                    <li className="p-4 border-b border-gray-600">About</li>
-                    <li className="p-4">Contact </li>
+                <ul className=" p-4 my-12">
+                    <li className="p-4 border-l border-blue-600">Home</li>
+                    <li className="p-4 border-l border-green-600">About</li>
+                    <li className="p-4 border-l border-red-600">Trade</li>
+                    <li className="p-4 border-l border-pink-600">Partners</li>
+                    <li className="p-4 border-l border-yellow-600">Help</li>
                 </ul>
+
+               <div className="">
+                    <button className=" my-4 w-[95%] mx-2  py-3  rounded-md px-11 bg-gradient-to-b from-[#047857] to bg-[#2dd4bf] text-white">Login</button>
+                    <button className=" w-[95%] mx-2  py-3 rounded-md px-11 bg-gradient-to-b from-[#047857] to bg-[#2dd4bf] text-white">Sign up</button>
+                </div>
             </div>
         </div>
      );
